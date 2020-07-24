@@ -34,6 +34,7 @@ namespace Test_UWP
             Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, World!");
             mediaElement.SetSource(stream, stream.ContentType);
             mediaElement.Play();
+            this.CacheMode;
         }
     }
 }
